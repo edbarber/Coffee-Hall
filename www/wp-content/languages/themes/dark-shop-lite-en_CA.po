@@ -1,0 +1,98 @@
+# Translation of Themes - Dark Shop lite in English (Canada)
+# This file is distributed under the same license as the Themes - Dark Shop lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 03:43:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Themes - Dark Shop lite\n"
+
+#. Description of the plugin/theme
+msgid "Dark Shop lite – is a great solution for blog."
+msgstr "Dark Shop lite – is a great solution for blog."
+
+#. Theme Name of the plugin/theme
+msgid "Dark Shop lite"
+msgstr "Dark Shop lite"
+
+#: functions.php:33
+msgid "sidebar-header"
+msgstr "sidebar-header"
+
+#: single.php:14
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:13
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: searchform.php:2
+msgid "Search"
+msgstr "Search"
+
+#: index.php:21
+msgid "&laquo; Newer"
+msgstr "&laquo; Newer"
+
+#: index.php:22
+msgid "Older &raquo;"
+msgstr "Older &raquo;"
+
+#: search.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: index.php:13 single.php:12
+msgid "Categories:"
+msgstr "Categories:"
+
+#: index.php:11
+msgid "Read more..."
+msgstr "Read more..."
+
+#: functions.php:31
+msgid "sidebar-left"
+msgstr "sidebar-left"
+
+#: functions.php:36
+msgid "sidebar-footer1"
+msgstr "sidebar-footer1"
+
+#: functions.php:61
+msgid "Page %s"
+msgstr "Page %s"
+
+#: functions.php:25
+msgid "Header Menu"
+msgstr "Header Menu"
+
+#: footer.php:12
+msgid "Theme"
+msgstr "Theme"
+
+#: 404.php:4
+msgid "Error 404 - Page Not Found"
+msgstr "Error 404 - Page Not Found"
+
+#: footer.php:12
+msgid "Powered by"
+msgstr "Powered by"
+
+#. Author of the plugin/theme
+msgid "JustPX"
+msgstr "JustPX"
+
+#. Author URI of the plugin/theme
+msgid "http://justpx.com/"
+msgstr "http://justpx.com/"
+
+#. Theme URI of the plugin/theme
+msgid "http://justpx.com/product/dark-shop-lite/"
+msgstr "http://justpx.com/product/dark-shop-lite/"
