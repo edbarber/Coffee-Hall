@@ -1,0 +1,27 @@
+.get-coffee-sections {
+    float: left;
+    margin: 21.33333333333333px; 
+    width: 200px;
+}
+
+.get-coffee-sections img {
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.get-coffee-sections img:hover {
+    filter: grayscale(50%);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* css to create button in pages */
+.custom-button {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    width: 100px;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(rgb(64, 64, 64), grey);
+}
