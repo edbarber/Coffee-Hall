@@ -25,6 +25,8 @@ function GetPurchasableCoffeeTable() {
     $targetPageId = 22;
     $tableRows = $wpdb->get_var(
         $wpdb->prepare("SELECT COUNT(*) FROM " . $tableName, null));
+    $maxImageHeight = '200px'; 
+    $maxImageWidth = '200px';
 
     while (true) {
         if ($counter > $tableRows) {
@@ -42,7 +44,7 @@ function GetPurchasableCoffeeTable() {
         $wpdb->get_var(
             $wpdb->prepare("SELECT imageURL FROM " . $tableName . " WHERE id = " . $counter, null)
         ) .
-        '" width="200px" height="200px alt="Server error">' .
+        '" width="' . $maxImageHeight . '" height="' . $maxImageHeight . '" alt="Server error">' .
         '</a>'.
         '<p>' . $wpdb->get_var(
             $wpdb->prepare("SELECT description FROM " . $tableName . " WHERE id = " . $counter, null)
