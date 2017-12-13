@@ -33,13 +33,16 @@ function GetPurchasableCoffeeTable() {
             break;
         }
         
+        $getCoffeeCatalogId = $wpdb->get_var(
+            $wpdb->prepare("SELECT id FROM " . $tableName . " WHERE id = " . $counter, null));
+
         echo '<section class="get-coffee-sections">';
 
         echo 
         '<h2>' . $wpdb->get_var(
             $wpdb->prepare("SELECT title FROM " . $tableName . " WHERE id = " . $counter, null)
         ) . '</h2>' .
-        '<a href="/index.php?page_id=' . $targetPageId . '">' . 
+        '<a href="/index.php?page_id=' . $targetPageId . '&getCoffeeCatalogId=' . $getCoffeeCatalogId . '">' . 
         '<img src="' . 
         $wpdb->get_var(
             $wpdb->prepare("SELECT imageURL FROM " . $tableName . " WHERE id = " . $counter, null)
