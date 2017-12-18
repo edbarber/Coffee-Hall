@@ -52,7 +52,7 @@ function GetPurchasableCoffeeTable() {
         '<p>' . $wpdb->get_var(
             $wpdb->prepare("SELECT description FROM " . $tableName . " WHERE id = " . $counter, null)
         ) . '</p>' .
-        '<a class="custom-button" href="/index.php?page_id=' . $targetPageId . '">Customize</a>';
+        '<a class="custom-button" href="/index.php?page_id=' . $targetPageId . '&getCoffeeCatalogId=' . $getCoffeeCatalogId . '">Customize</a>';
         
         echo '</section>';
 
