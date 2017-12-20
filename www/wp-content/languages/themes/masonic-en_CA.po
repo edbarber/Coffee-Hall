@@ -1,0 +1,463 @@
+# Translation of Themes - Masonic in English (Canada)
+# This file is distributed under the same license as the Themes - Masonic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-22 01:19:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Themes - Masonic\n"
+
+#. Description of the plugin/theme
+msgid "Masonic is responsive and retina ready WordPress theme suitable for blogs and has beautiful masonry layout. Theme has options like primary color, link color, custom CSS etc. which you can change from Theme Customizer. Also, supports Breadcrumb NavXT plugin. Get free support at http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/masonic/"
+msgstr "Masonic is responsive and retina ready WordPress theme suitable for blogs and has beautiful masonry layout. Theme has options like primary colour, link colour, custom CSS etc. which you can change from Theme Customizer. Also, supports Breadcrumb NavXT plugin. Get free support at http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/masonic/"
+
+#. Theme Name of the plugin/theme
+msgid "Masonic"
+msgstr "Masonic"
+
+#: inc/customizer.php:87
+msgid "%sInfo:%s This option will be removed in upcoming update. Please go to Site Identity section to upload the theme logo."
+msgstr "%sInfo:%s This option will be removed in upcoming update. Please go to Site Identity section to upload the theme logo."
+
+#: inc/admin/class-masonic-admin.php:302
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: inc/admin/class-masonic-admin.php:301
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: inc/admin/class-masonic-admin.php:300
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/admin/class-masonic-admin.php:297
+msgid "Easy Social Sharing"
+msgstr "Easy Social Sharing"
+
+#: inc/admin/class-masonic-admin.php:295 inc/admin/class-masonic-admin.php:298
+msgid " by ThemeGrill"
+msgstr " by ThemeGrill"
+
+#: inc/admin/class-masonic-admin.php:294
+msgid "Social Icons"
+msgstr "Social Icons"
+
+#: inc/admin/class-masonic-admin.php:292
+msgid "This theme recommends following plugins:"
+msgstr "This theme recommends following plugins:"
+
+#: inc/admin/class-masonic-admin.php:239
+msgid "View changelog below."
+msgstr "View changelog below."
+
+#: inc/admin/class-masonic-admin.php:222
+msgid "Go to Dashboard"
+msgstr "Go to Dashboard"
+
+#: inc/admin/class-masonic-admin.php:222
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Go to Dashboard &rarr; Home"
+
+#: inc/admin/class-masonic-admin.php:219
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Return to Dashboard &rarr; Updates"
+
+#: inc/admin/class-masonic-admin.php:219
+msgid "Return to Updates"
+msgstr "Return to Updates"
+
+#: inc/admin/class-masonic-admin.php:203
+msgid "Click below to translate this theme into your own language."
+msgstr "Click below to translate this theme into your own language."
+
+#: inc/admin/class-masonic-admin.php:199 inc/admin/class-masonic-admin.php:207
+msgid "Translate"
+msgstr "Translate"
+
+#: inc/admin/class-masonic-admin.php:193
+msgid "Support"
+msgstr "Support"
+
+#: inc/admin/class-masonic-admin.php:192
+msgid "Please put it in our dedicated support forum."
+msgstr "Please put it in our dedicated support forum."
+
+#: inc/admin/class-masonic-admin.php:191
+msgid "Got theme support question?"
+msgstr "Got theme support question?"
+
+#: inc/admin/class-masonic-admin.php:186
+msgid "Please view our documentation page to setup the theme."
+msgstr "Please view our documentation page to setup the theme."
+
+#: inc/admin/class-masonic-admin.php:185 inc/admin/class-masonic-admin.php:187
+msgid "Documentation"
+msgstr "Documentation"
+
+#: inc/admin/class-masonic-admin.php:181
+msgid "Customize"
+msgstr "Customize"
+
+#: inc/admin/class-masonic-admin.php:180
+msgid "All Theme Options are available via Customize screen."
+msgstr "All Theme Options are available via Customize screen."
+
+#: inc/admin/class-masonic-admin.php:179
+msgid "Theme Customizer"
+msgstr "Theme Customizer"
+
+#: inc/admin/class-masonic-admin.php:145
+msgid "Changelog"
+msgstr "Changelog"
+
+#: inc/admin/class-masonic-admin.php:142
+msgid "Supported Plugins"
+msgstr "Supported Plugins"
+
+#: inc/admin/class-masonic-admin.php:134
+msgid "Rate this theme"
+msgstr "Rate This Theme"
+
+#: inc/admin/class-masonic-admin.php:132
+msgid "View Demo"
+msgstr "View Demo"
+
+#: inc/admin/class-masonic-admin.php:130
+msgid "Theme Info"
+msgstr "Theme Info"
+
+#: inc/admin/class-masonic-admin.php:117
+msgid "%s"
+msgstr "%s"
+
+#: inc/admin/class-masonic-admin.php:95
+msgid "Get started with Masonic"
+msgstr "Get started with Masonic"
+
+#: inc/admin/class-masonic-admin.php:93
+msgid "Welcome! Thank you for choosing masonic! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Welcome! Thank you for choosing masonic! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+
+#: inc/admin/class-masonic-admin.php:92
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#: inc/admin/class-masonic-admin.php:78
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; eh?"
+
+#: inc/admin/class-masonic-admin.php:74
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Action failed. Please refresh the page and retry."
+
+#: inc/admin/class-masonic-admin.php:36 inc/admin/class-masonic-admin.php:115
+msgid "About"
+msgstr "About"
+
+#: inc/template-tags.php:111
+msgid "<div class=\"entry-date fa fa-clock-o\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></div>"
+msgstr "<div class=\"entry-date fa fa-clock-o\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></div>"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:14
+msgid "Type and hit enter..."
+msgstr "Type and hit enter..."
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr "Search for:"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:176
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:172
+msgid "Archives: %s"
+msgstr "Archives: %s"
+
+#: inc/template-tags.php:170
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:168
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:166
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:162
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:160
+msgid "Category: %s"
+msgstr "Category: %s"
+
+#: inc/template-tags.php:138
+msgid " %1$s"
+msgstr " %1$s"
+
+#: inc/template-tags.php:129
+msgid "% Comments"
+msgstr "% Comments"
+
+#: inc/template-tags.php:129
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: inc/template-tags.php:129
+msgid "No Comment"
+msgstr "No Comment"
+
+#: inc/template-tags.php:120 inc/template-tags.php:134
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:95
+msgid " "
+msgstr " "
+
+#: inc/template-tags.php:77
+msgctxt "Next post link"
+msgid "%title<span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+msgstr "%title<span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+
+#: inc/template-tags.php:76
+msgctxt "Previous post link"
+msgid "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span>%title"
+msgstr "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span>%title"
+
+#: inc/template-tags.php:74
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: inc/template-tags.php:44
+msgid "Next <span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+msgstr "Next <span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+
+#: inc/template-tags.php:40
+msgid "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span> Previous"
+msgstr "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span> Previous"
+
+#: inc/template-tags.php:36
+msgid "Newer posts <span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+msgstr "Newer posts <span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+
+#: inc/template-tags.php:32
+msgid "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span> Older posts"
+msgstr "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span> Older posts"
+
+#: inc/template-tags.php:25
+msgid "Posts navigation"
+msgstr "Posts navigation"
+
+#: inc/extras.php:92
+msgid "Search Results For: %s"
+msgstr "Search Results for: %s"
+
+#: inc/extras.php:90
+msgid "404: Page Not Found"
+msgstr "404: Page Not Found"
+
+#: inc/extras.php:85 inc/template-tags.php:178 sidebar.php:18
+msgid "Archives"
+msgstr "Archives"
+
+#: inc/extras.php:82 inc/template-tags.php:166
+msgid "Year: %s"
+msgstr "Year: %s"
+
+#: inc/extras.php:79 inc/template-tags.php:168
+msgid "Month: %s"
+msgstr "Month: %s"
+
+#: inc/extras.php:76 inc/template-tags.php:170
+msgid "Day: %s"
+msgstr "Day: %s"
+
+#: inc/extras.php:68 inc/template-tags.php:164
+msgid "Author: %s"
+msgstr "Author: %s"
+
+#: inc/extras.php:45
+msgid "Follow %s on Facebook"
+msgstr "Follow %s on Facebook"
+
+#: inc/extras.php:42
+msgid "Follow %s on Google+"
+msgstr "Follow %s on Google+"
+
+#: inc/extras.php:39
+msgid "Follow %s on Twitter"
+msgstr "Follow %s on Twitter"
+
+#: inc/customizer.php:168
+msgid "Add your custom css here and design live! (for advanced users)"
+msgstr "Add your custom css here and design live! (for advanced users)"
+
+#: inc/customizer.php:151
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: inc/customizer.php:128
+msgid "Check to enable the cropping of the featured image in the blog/archive page, ie, if unchecked, the height will not be cropped."
+msgstr "Check to enable the cropping of the featured image in the blog/archive page, ie, if unchecked, the height will not be cropped."
+
+#: inc/customizer.php:115
+msgid "Featured Image Cropping"
+msgstr "Featured Image Cropping"
+
+#: inc/customizer.php:108
+msgid "Check to enable the search icon in menu."
+msgstr "Check to enable the search icon in menu."
+
+#: inc/customizer.php:95
+msgid "Search Icon"
+msgstr "Search Icon"
+
+#: inc/customizer.php:75
+msgid "Upload Your Logo Here"
+msgstr "Upload Your Logo Here"
+
+#: inc/customizer.php:73 inc/customizer.php:86
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer.php:45
+msgid "Link Color"
+msgstr "Link Colour"
+
+#: inc/customizer.php:40
+msgid "Primary Color"
+msgstr "Primary Colour"
+
+#: inc/custom-header.php:35
+msgid "Header Image"
+msgstr "Header Image"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: functions.php:275
+msgid "Video URL"
+msgstr "Video URL"
+
+#: functions.php:234
+msgid "Theme: %2$s by %1$s"
+msgstr "Theme: %2$s by %1$s"
+
+#: functions.php:234
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#. #-#-#-#-#  masonic.pot (Masonic 1.2.8)  #-#-#-#-#
+#. Author of the plugin/theme
+#: functions.php:232
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#: functions.php:230
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:134
+msgid "Footer Sidebar Three"
+msgstr "Footer Sidebar Three"
+
+#: functions.php:125
+msgid "Footer Sidebar Two"
+msgstr "Footer Sidebar Two"
+
+#: functions.php:116
+msgid "Footer Sidebar One"
+msgstr "Footer Sidebar One"
+
+#: functions.php:107
+msgid "Right Sidebar"
+msgstr "Right Sidebar"
+
+#: functions.php:71
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: footer.php:42
+msgid "&copy; "
+msgstr "&copy; "
+
+#: content.php:48
+msgid "Read more"
+msgstr "Read more"
+
+#: content-page.php:19 content-single.php:35 content.php:44
+msgid "Pages:"
+msgstr "Pages:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Older Comments"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "One thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Perhaps a search may help you."
+msgstr "It looks like nothing was found at this location. Perhaps a search may help you."
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found."
+
+#. Author URI of the plugin/theme
+msgid "http://themegrill.com"
+msgstr "http://themegrill.com"
+
+#. Theme URI of the plugin/theme
+msgid "http://themegrill.com/themes/masonic/"
+msgstr "http://themegrill.com/themes/masonic/"
