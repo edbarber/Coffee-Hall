@@ -27,17 +27,22 @@ function GetPurchasableCoffeeTable() {
         $wpdb->prepare("SELECT COUNT(*) FROM " . $tableName, null));
     $maxImageHeight = '200px'; 
     $maxImageWidth = '200px';
+    $rowDividerCount = 0;
+    $maxItemsPerRow = 2;
 
     while (true) {
         if ($counter > $tableRows) {
             break;
         }
-        
+
         $getCoffeeCatalogId = $wpdb->get_var(
             $wpdb->prepare("SELECT id FROM " . $tableName . " WHERE id = " . $counter, null));
+                    
+        if ($rowDividerCount == 0) {
+            echo '<div class="get-coffee-sections">';
+        }
 
-        echo '<section class="get-coffee-sections">';
-
+        echo '<figure>';
         echo 
         '<h2>' . $wpdb->get_var(
             $wpdb->prepare("SELECT title FROM " . $tableName . " WHERE id = " . $counter, null)
@@ -49,13 +54,19 @@ function GetPurchasableCoffeeTable() {
         ) .
         '" width="' . $maxImageHeight . '" height="' . $maxImageHeight . '" alt="Server error">' .
         '</a>'.
-        '<p>' . $wpdb->get_var(
+        '<figcaption>' . $wpdb->get_var(
             $wpdb->prepare("SELECT description FROM " . $tableName . " WHERE id = " . $counter, null)
-        ) . '</p>' .
+        ) . '</figcaption>' .
         '<a class="custom-button" href="/index.php?page_id=' . $targetPageId . '&getCoffeeCatalogId=' . $getCoffeeCatalogId . '">Customize</a>';
         
-        echo '</section>';
+        echo '</figure>';
 
+        $rowDividerCount++;
         $counter++;
+
+        if ($rowDividerCount == $maxItemsPerRow || $counter > $tableRows) {
+            $rowDividerCount = 0;
+            echo '</div>';
+        }
     }
 }
