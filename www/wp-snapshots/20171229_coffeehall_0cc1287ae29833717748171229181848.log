@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: December 29, 2017 6:19 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.30
+WORDPRESS:	4.9.1
+PHP INFO:	7.1.9 | SAPI: cli-server
+SERVER:		PHP 7.1.9 Development Server 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 18MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:20 | filtered:0 | create:20 
+FILTERED: [] 
+SQL CREATED: 20171229_coffeehall_0cc1287ae29833717748171229181848_database.sql 
+SQL FILE SIZE: 975.6KB (999015) 
+SQL FILE TIME: 2017-12-29 18:19:03 
+SQL RUNTIME: 0.18 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/Users/Ebarber5969/Desktop/Coffee Hall/www 
+ARCHIVE FILE: 20171229_coffeehall_0cc1287ae29833717748171229181848_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	94.4MB 
+STATS:	Dirs 822 | Files 5,531 
+SQL ADDED: 20171229_coffeehall_0cc1287ae29833717748171229181848_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6353
+    [filename] => C:\Users\Ebarber5969\Desktop\Coffee Hall\www\wp-snapshots\tmp\20171229_coffeehall_0cc1287ae29833717748171229181848_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 37.8MB 
+ARCHIVE RUNTIME: 10.77 sec. 
+MEMORY STACK: 20MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [C:/Users/Ebarber5969/Desktop/Coffee Hall/www/wp-snapshots/tmp/20171229_coffeehall_0cc1287ae29833717748171229181848_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 975.6KB 
+Installer File: 443.32KB 
+Archive File: 37.8MB  
+
+********************************************************************************
+RECORD ID:[]
+TOTAL PROCESS RUNTIME: 17.46 sec.
+PEAK PHP MEMORY USED: 22MB
+DONE PROCESSING => 20171229_coffeehall December 29, 2017 6:19 pm
+ 
