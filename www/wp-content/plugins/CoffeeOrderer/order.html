@@ -4,13 +4,13 @@
         <div class="row">
             <fieldset>
             <h1>Customize Your Coffee</h1><br>
-`
+
              <!-- blend input-->
              <div class="control-group">
                 <label class="control-label">Blend</label>
                 <div class="controls">
                     <select id="blend" required=required name="blend" ng-model="model.blend" class="input-xlarge">
-                        <option value="" selected="selected"></option>
+                        <option value="" disabled selected>(please select a blend)</option>
                         <option value="Boring Old Regular">Boring Old Regular</option>
                         <option value="Robusta Coffee">Robusta Coffee</option>
                         <option value="Arabica Coffee">Arabica Coffee</option>
@@ -32,7 +32,7 @@
                 <label class="control-label">Coffee Size</label>
                 <div class="controls">
                     <select id="coffee-size" required=required name="coffee-size" ng-model="model.size" class="input-xlarge">
-                        <option value="" selected="selected"></option>
+                        <option value="" disabled selected>(please select a size)</option>
                         <option value="50 grams">50 grams</option>
                         <option value="100 grams">100 grams</option>
                         <option value="150 grams">150 grams</option>
@@ -44,7 +44,7 @@
             <div class="control-group">
                 <label class="control-label">Quantity</label>
                 <div class="controls">
-                    <input id="quantity" required=required name="quantity" ng-model="model.quantity" type="number" placeholder="coffee-quantity" class="input-xlarge">
+                    <input id="quantity" required=required name="quantity" ng-model="model.quantity" type="number" min="1" placeholder="coffee-quantity" class="input-xlarge">
                     <p class="help-block"></p>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                 <label class="control-label">Country</label>
                 <div class="controls">
                     <select id="country" required=required name="country" ng-model="model.country" class="input-xlarge">
-                        <option value="" selected="selected">(please select a country)</option>
+                        <option value="" disabled selected>(please select a country)</option>
                         <option value="AF">Afghanistan</option>
                         <option value="AL">Albania</option>
                         <option value="DZ">Algeria</option>
@@ -357,13 +357,13 @@
                 </div>
                 </div>
                 <br><br>
-                <h1>Payment Detials</h1><br>
+                <h1>Payment Details</h1><br>
                 
                  <!-- cardnumber input-->
                  <div class="control-group">
                 <label class="control-label">Card Number</label>
                 <div class="controls">
-                    <input id="cardnumber" required=required name="cardnumber" ng-model="model.cardnumber" type="number" placeholder="credit / debit card number" class="input-xlarge">
+                    <input id="cardnumber" required=required name="cardnumber" ng-model="model.cardnumber" placeholder="credit / debit card number" class="input-xlarge" pattern="^\d{4}-\d{4}-\d{4}-\d{4}$" title="Must be like 9999-9999-9999-9999">
                     <p class="help-block"></p>
                 </div>
                 </div>
@@ -372,7 +372,7 @@
                 <label class="control-label">Card Type</label>
                 <div class="controls">
                     <select id="cardtype" required=required name="cardtype" ng-model="model.cardtype" class="input-xlarge">
-                        <option value="" selected="selected"></option>
+                        <option value="" disabled selected>(please select a card type)</option>
                         <option value="MasterCard">MasterCard</option>
                         <option value="VISA">VISA</option>
                         <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
@@ -385,6 +385,8 @@
         </div>
     </div>
     <div id="message" style="text-align:center; padding-bottom: 30px;" ng-show="showMessage" class="warn">{{message}}<br></div>
-    <button type="submit">Place the order</button>
-
+    <button type="submit">Submit Order</button>
+    <br>
+    <br>
+    <button ng-click="goBack()">Cancel</button>
 </form>
